@@ -1,0 +1,53 @@
+html {
+    height: 100vh;
+}
+
+#background-div{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 68);
+    position: fixed;
+/*   background-image: url("images/login-background.jpg");*/
+    background-size: cover;
+    background-repeat: no-repeat;  
+    text-align: center;
+}
+
+#login-box-container {
+    display:inline-block;
+    background-color: burlywood;
+    border-radius: 5%;
+    padding: 20px;
+    margin-top: 10%;
+    vertical-align: center;    
+    text-align: center;
+    box-shadow: 5px 3px 8px 1px black;
+  	-webkit-box-shadow: 4px 3px 8px 2px black;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+
+}
+
+input {
+    background-color: beige;
+    color: rgb(124, 76, 22);
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(124, 76, 22);
+    color: beige;
+    margin-top: 6px;
+    border-radius: 5px;
+    border:none;
+}
+
+a {
+    color: rgb(124, 76, 22);
+    font-size: 12px;
+}
